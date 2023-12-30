@@ -10,11 +10,11 @@ function Navbar() {
     return (
         <>
             <nav>
-                <div className='logo'><p>Dariya Dalabayeva🌷</p></div>
+                <div className='logo'><p>Dariya Dalabayeva</p></div>
                 <div id="basic-navbar-nav" className="links">
                     <div className='social'><a href="#" target="_blank" rel="noopener noreferrer" onClick={() => handleClick('linkedin')} className={activeLink === 'linkedin' ? 'active' : ''}>linkedin</a></div>
                     <div className='social'>/</div>
-                    <div className='social'><a href="#" target="_blank" rel="noopener noreferrer" onClick={() => handleClick('email')} className={activeLink === 'email' ? 'active' : ''}>email</a></div>
+                    <div className='social'><a href="#" target="_blank" rel="noopener noreferrer" onClick={() => handleClick('email')} className={activeLink === 'email' ? 'active' : ''}>instagram</a></div>
                     <div className='social'>/</div>
                     <div className='social'><a href="#" target="_blank" rel="noopener noreferrer" onClick={() => handleClick('resume')} className={activeLink === 'resume' ? 'active' : ''}>resume</a></div>
                 </div>

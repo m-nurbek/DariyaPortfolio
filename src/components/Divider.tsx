@@ -4,7 +4,7 @@ function Divider() {
     return (
         <>
             <div className="divider">
-                <p>🎄</p>
+                <p>📸🤓👩‍🎓💻</p>
                 <div className="line"></div>
             </div>
         </>

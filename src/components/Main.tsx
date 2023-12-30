@@ -13,7 +13,7 @@ function Main() {
             </div>
             <div className="caption">
                 <h1>
-                    Hi! I'm <span className="name">Dariya!</span>🌺😉<br/>
+                    Hi! I'm <span className="name">Dariya!</span>😉<br/>
                     head of strategic communications and<br/>
                     <span className="mark">the co-founder of PerFe agency</span>
                 </h1>
