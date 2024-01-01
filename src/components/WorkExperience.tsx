@@ -2,6 +2,12 @@ import { RefObject, useRef } from "react";
 import Card from "./Card";
 import CardV2 from "./CardV2";
 import Divider from "./Divider";
+import CareerAdvising from "/CareerAdvising.jpg";
+import AAO from "/AAO.jpg";
+import KAPTech from "/KAPTech.jpg";
+import PBN from "/PBN.jpg";
+import SG from "/SG.jpg";
+
 
 function WorkExperience() {
     const ref1 = useRef<HTMLDivElement>(null);
@@ -30,6 +36,7 @@ function WorkExperience() {
                 heading="Mentor in Academic Advising Office of NU" 
                 p="Providing undergraduate students with the support they need in their studies"
                 forwardedRef={ref1}
+                img={AAO}
             >
                 <div className="textWrapper">
                     <p>Accomplishments:</p>
@@ -46,6 +53,7 @@ function WorkExperience() {
                 heading="HR Manager Intern in KAP Technology LLP" 
                 p='Connects the demands of businesses and companies with the usage of modern IT solutions'
                 forwardedRef={ref2}
+                img={KAPTech}
             >
                 <div className="textWrapper">
                     <p>Accomplishments:</p>
@@ -63,6 +71,7 @@ function WorkExperience() {
                 heading="Communications Manager Intern in Career and Advising Center of NU" 
                 p="Empowering partner merchants to manage and grow their business"
                 forwardedRef={ref3}
+                img={CareerAdvising}
             >
                 <div className="textWrapper">
                     <p>Accomplishments:</p>
@@ -81,6 +90,7 @@ function WorkExperience() {
                 heading="Ministry of Media and Communications Member in Student Government of NU" 
                 p='Connects the demands of businesses and companies with the usage of modern IT solutions'
                 forwardedRef={ref4}
+                img={SG}
             >
                 <div className="textWrapper">
                     <p>Accomplishments:</p>
@@ -98,6 +108,7 @@ function WorkExperience() {
                 heading="Public Relations Intern in PBN Hill+Knowlton Strategies" 
                 p="Empowering partner merchants to manage and grow their business"
                 forwardedRef={ref5}
+                img={PBN}
             >
                 <div className="textWrapper smallerFont" >
                     <p>Accomplishments:</p>
